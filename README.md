@@ -31,7 +31,7 @@ $$
 
 ## Absolutely maximally entangled states
 
-An absolutely maximally entangled state AME(n,d) is an $n$-party quantum state with local dimension $d$ such that every reduction to at most half of the parties is maximally mixed.
+An absolutely maximally entangled state AME(n,d) is an $n$-party quantum state with local dimension $d$ such that every reduction to at most half of the parties is maximally mixed. More precisely, for every subsystem $A$ such that $k=|A|\leq \left\lfloor\frac{n}{2}\right \rfloor$, all $k$-qubit reduced states are maximally mixed. 
 
 For an AME(6,2) state, $1$-, $2$-, or $3$-qubit reduced states are maximally mixed.
 
