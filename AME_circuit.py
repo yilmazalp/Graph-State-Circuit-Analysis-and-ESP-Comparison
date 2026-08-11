@@ -27,7 +27,7 @@ def schedule_cz_gate(edges: list[tuple[int, int]]) -> list[list[tuple[int, int]]
         placed = False
 
         for layer in scheduled_edges:
-            # Check whether edge conflicts with ANY edge in layer.
+            # check whether edge conflicts with any edge in layer.
             if all(set(edge).isdisjoint(existing_edge) for existing_edge in layer):
                 layer.append(edge)
                 placed = True
